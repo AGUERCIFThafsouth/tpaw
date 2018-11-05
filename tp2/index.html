@@ -21,13 +21,53 @@
         </style>
         
         <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="js/main.js"></script>-->
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="formulaire.js"></script>
     </head>
     <body>        
-        <h1>tp2</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
+        
+<h1>Saisie d'une fiche personne</h1>
+	
+<img src="../galilee.png">
+<form >
+<div class="grid-container">
+       
+<div><label for="name">Nom :</label> </div>
+
+<div><input type="text" id="name" name="name" class="name"></div>
+<div></div>
+  
+
+  
+<div><label for="prenom">Prenom :</label> </div>
+<div><input type="text" id="prenom" name="prenom" class="prenom"></div>
+<div></div>
+  
+
+  
+<div> <label for="date"> date de naissance :</label> </div>
+<div><input type="date" id="date_naissance" name="date_naissance" class="date_naissance"></div>
+<div></div>
+  
+
+<div><label for="adresse">Adresse:</label> </div>
+<div><input type="text" id="adresse" name="adresse" class="adresse"></div>
+<div></div>
+  
+
+<div><label for="mail">Mail:</label> </div>
+<div><input type="mail" id="mail" name="mail" class="mail"></div>
+<div></div>
+  
+  
+  <div> </div>
+  <div><input type="button" value="Valider" onclick="validation()"></div>
+<div></div>
+  
+  </div>
+</form>
+  <div id="error"> </div>
+  <div id="resultat" class="resultat"> </div>
+
     </body>
 </html>

@@ -1,0 +1,30 @@
+header{
+    padding-top: 50px;
+    margin:auto;
+        width: 60%;
+    }
+
+
+
+
+body
+    {margin:auto;
+        width: 88%;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px;
+}
+.grid-container{
+	display: grid;
+	padding: 20px;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+.grid-item{
+	padding: 20 px;
+	text-align: left;
+	font-size: 25px;
+}
+#error{
+border:1px solid black;
+}
+
