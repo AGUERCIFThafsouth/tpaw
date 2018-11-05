@@ -1,0 +1,31 @@
+header{
+    padding-top: 50px;
+    margin:auto;
+        width: 60%;
+    }
+
+
+
+
+body
+    {margin:auto;
+        width: 88%;
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px;
+    }
+/*
+td 
+{width: 100vh
+  text-align: centre;
+}
+tr
+{
+    width: 100vh
+    text-align: centre;
+}*/
+.cont
+{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+} 
