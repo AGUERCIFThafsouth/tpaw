@@ -23,8 +23,6 @@ er1.style.padding="5px";
 er1.style.border="1px  black;" 
 er1=document.getElementById("resultat").innerHTML = "Bienvenue " + document.querySelector("#name").value;
 
-
-
 }
 
 
