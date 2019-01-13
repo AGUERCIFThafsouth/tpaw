@@ -12,7 +12,7 @@ $( document ).ready(function() {
             $('#myModal').modal("show");}
         else { 
             $('.modal-header').text(" Bienvenue " + $("#inputNom").val());
-            $('.txt').text(" vous etes née en  " + $("#inputDate").val() + "et vous habitez a ");
+            $('.txt').text(" vous etes née en  " + $("#inputDate").val() _+ "et vous habitez a ");
             $('.image').html('<img src="https://maps.googleapis.com/maps/api/staticmap?markers=paris&zoom=10&size=400x300&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg"></img>');
             $("#lien").text($("#inputAdresse").val());
             $('#myModal').modal("show");
