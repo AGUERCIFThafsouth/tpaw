@@ -1,31 +1,55 @@
 header{
-    padding-top: 50px;
-    margin:auto;
-        width: 60%;
+        
+        background-color: rgb(128, 177, 128);
+
     }
-
-
-
-
+    .infos
+    {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin:auto;
+        width: 80%;
+    }
 body
     {margin:auto;
         width: 88%;
         border: 2px solid black;
         box-shadow: 5px 5px 5px;
+        width:100%;
+        background-color:#80d3c1;
+        
     }
-/*
-td 
-{width: 100vh
-  text-align: centre;
-}
-tr
+
+h1 
 {
-    width: 100vh
-    text-align: centre;
-}*/
+    text-align: center;
+    size: 1.5em;
+    color : rgb(187, 91, 110);
+
+    
+}
+tr:hover
+{
+    transform: scale(1.05);
+    color:white;
+    background-color: blue;
+
+}
 .cont
 {
-    width: 70%;
+    width: 60%;
     margin: auto;
     overflow: hidden;
+    border: solid, 2px, black;
+    
 } 
+
+
+
+
+footer
+{
+    height: 100px;
+    background-color: forestgreen;
+    margin-top: 20px;
+}
