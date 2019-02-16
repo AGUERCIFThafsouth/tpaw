@@ -12,6 +12,7 @@ body
         width: 88%;
         border: 2px solid black;
         box-shadow: 5px 5px 5px;
+        background-color:#c1d380;
 }
 .grid-container{
 	display: grid;
